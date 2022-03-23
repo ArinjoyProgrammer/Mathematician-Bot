@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from datetime import datetime
 
-import servers
+import test_servers
 
 
 
@@ -12,7 +12,7 @@ class NormalCalculation(commands.Cog):
 
 
 
-    s1 = servers.s1
+    s1 = test_servers.s1
 
     @commands.slash_command(guild_ids=[s1], description="This command does the Addition of the numbers")
     async def add(self, ctx, num1: int, num2: int):

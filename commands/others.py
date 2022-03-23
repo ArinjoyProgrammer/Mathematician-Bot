@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-import servers
+import test_servers
 
 
 
@@ -9,7 +9,7 @@ class Others(commands.Cog):
     def __init__(self, client):
         self.client = client
 
-    s1 = servers.s1
+    s1 = test_servers.s1
 
     @commands.slash_command(guild_ids=[s1], description="Shows the version of the bot!")
     async def version(self,  ctx):

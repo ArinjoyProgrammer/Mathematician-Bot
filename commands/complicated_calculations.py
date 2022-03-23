@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from datetime import datetime
 
-import servers
+import test_servers
 
 
 
@@ -12,7 +12,7 @@ class Percentage(commands.Cog):
 
 
 
-    s1 = servers.s1
+    s1 = test_servers.s1
 
     @commands.slash_command(guild_ids=[s1], description="This calculates the Number/Marks into a Percentage!")
     async def percentage(self, ctx, gained_marks: int, total_marks: int):

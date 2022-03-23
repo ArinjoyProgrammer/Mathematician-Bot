@@ -1,7 +1,10 @@
 import discord
 from discord.ext import commands
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
+
+import bot_token
+
 
 
 intents = discord.Intents.all()
@@ -21,5 +24,5 @@ for filename in os.listdir('./commands'):
 
 
 
-load_dotenv()
-client.run(os.getenv('token'))
+# load_dotenv()
+client.run(bot_token.bot_token)

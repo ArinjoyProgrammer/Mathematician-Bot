@@ -33,6 +33,7 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+bot_token.py
 *.cover
 *.py,cover
 .hypothesis/
@@ -56,6 +57,7 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 *.sage.py
+servers.py
 .env
 .venv
 env/
@@ -71,3 +73,4 @@ venv.bak/
 .dmypy.json
 dmypy.json
 .pyre/
+test_servers.py
