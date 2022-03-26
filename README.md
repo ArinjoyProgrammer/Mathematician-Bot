@@ -9,6 +9,8 @@ Hope you should use this bot!
 # Features Of The Bot
 
 - The Bot can Calculates Sums
+- It can calculate **Average**
+- It can calculate **Percentage**
 - It can calulate the **Square Root** of a number
 - It can calulate the **Factorial** of a number
 - And other Mathematical Operations etc.
